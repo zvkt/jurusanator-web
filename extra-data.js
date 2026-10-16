@@ -1,0 +1,48 @@
+/* more questions + majors (loaded before app.js) */
+Q.push(...[
+["Saya senang merawat atau membantu orang yang sedang sakit.","I like caring for people who are ill.",[0,.5,0,1,0,0]],
+["Saya tertarik pada tumbuhan, hewan, dan alam.","I'm drawn to plants, animals, and nature.",[1,1,0,0,0,0]],
+["Saya senang membahas hukum, keadilan, dan kebijakan publik.","I enjoy discussing law, justice, and public policy.",[0,0,0,1,1,.5]],
+["Saya senang menjual produk atau menawarkan ide ke orang lain.","I enjoy selling products or pitching ideas.",[0,0,0,0,1,0]],
+["Saya teliti memeriksa detail, angka, dan laporan.","I carefully check details, numbers, and reports.",[0,0,0,0,0,1]],
+["Saya suka membongkar gawai untuk tahu isi dalamnya.","I like taking gadgets apart to see inside.",[1,.5,0,0,0,0]],
+["Saya tertarik menjaga keamanan sistem dan data.","I'm interested in protecting systems and data.",[0,1,0,0,0,1]],
+["Saya senang bermusik, berakting, atau membuat film.","I enjoy music, acting, or making films.",[0,0,1,0,0,0]],
+["Teman sering curhat dan minta saran dari saya.","Friends often confide in me and ask for advice.",[0,0,0,1,0,0]],
+["Saya nyaman presentasi dan bernegosiasi.","I'm comfortable presenting and negotiating.",[0,0,0,0,1,0]],
+["Saya senang membangun sesuatu di luar ruangan, misalnya jembatan atau kebun.","I like building things outdoors, like bridges or gardens.",[1,0,0,0,0,0]],
+["Saya penasaran dengan luar angkasa, bumi, dan batuan.","I'm curious about space, the earth, and rocks.",[.5,1,0,0,0,0]],
+["Saya suka mengenal budaya dan bahasa lain.","I like learning about other cultures and languages.",[0,0,.5,1,.5,0]],
+["Saya senang menulis berita atau mewawancarai orang.","I enjoy writing news or interviewing people.",[0,0,1,.5,.5,0]],
+["Saya senang merencanakan anggaran dan keuangan.","I enjoy planning budgets and finances.",[0,0,0,0,.5,1]],
+["Saya peduli lingkungan dan penghematan energi.","I care about the environment and saving energy.",[.5,1,0,.5,0,0]],
+["Saya senang merancang ruangan atau bangunan.","I enjoy designing rooms or buildings.",[.5,0,1,0,0,0]],
+["Saya suka memasak dan memikirkan makanan sehat.","I like cooking and thinking about healthy food.",[1,.5,0,.5,0,0]],
+["Saya senang membuat game atau animasi.","I enjoy making games or animations.",[0,1,1,0,0,0]],
+["Saya ingin memimpin usaha atau organisasi sendiri.","I want to lead my own business or organization.",[0,0,0,0,1,.5]]]);
+const XM=[["Keamanan Siber","Cyber Security",0,[2,5,1,1,2,4],"Melindungi sistem dan data dari serangan.","Protect systems and data from attacks."],
+["Kecerdasan Artifisial","Artificial Intelligence",0,[1,5,2,1,2,3],"Membangun mesin yang belajar dan berpikir.","Build machines that learn and reason."],
+["Teknik Geologi","Geological Engineering",2,[4,5,1,1,1,2],"Mempelajari bumi, batuan, dan sumber daya.","Study the earth, rocks, and resources."],
+["Teknik Perkapalan","Naval Architecture",2,[5,4,2,1,1,2],"Merancang kapal dan bangunan laut.","Design ships and offshore structures."],
+["Teknik Dirgantara","Aerospace Engineering",2,[5,5,1,1,1,2],"Merancang pesawat dan wahana antariksa.","Design aircraft and spacecraft."],
+["Teknik Biomedis","Biomedical Engineering",2,[4,5,1,2,1,2],"Teknologi untuk alat kesehatan.","Technology for medical devices."],
+["Teknik Geodesi","Geomatics Engineering",2,[5,4,1,1,1,3],"Pemetaan, GPS, dan data spasial.","Mapping, GPS, and spatial data."],
+["Kedokteran Hewan","Veterinary Medicine",9,[3,5,1,3,1,2],"Merawat kesehatan hewan.","Care for animal health."],
+["Kehutanan","Forestry",9,[5,4,1,1,1,2],"Mengelola dan menjaga hutan.","Manage and protect forests."],
+["Ilmu Kelautan","Marine Science",9,[4,5,1,1,1,2],"Meneliti laut dan sumber dayanya.","Study the sea and its resources."],
+["Teknologi Pangan","Food Technology",9,[4,5,1,1,2,3],"Mengolah makanan aman dan bergizi.","Process safe, nutritious food."],
+["Agribisnis","Agribusiness",9,[3,3,1,2,4,3],"Bisnis pertanian dari hulu ke hilir.","Farm business from field to market."],
+["Sastra Inggris","English Literature",5,[1,2,4,4,2,2],"Bahasa, sastra, dan penerjemahan.","Language, literature, and translation."],
+["Jurnalistik","Journalism",5,[1,2,4,4,3,2],"Mencari, menulis, dan menyajikan berita.","Find, write, and present news."],
+["Pariwisata & Perhotelan","Tourism & Hospitality",6,[2,1,2,5,4,3],"Mengelola layanan wisata dan hotel.","Run travel and hotel services."],
+["Desain Interior","Interior Design",7,[3,2,5,2,2,2],"Merancang ruang yang nyaman dan indah.","Design comfortable, beautiful spaces."],
+["Film & Televisi","Film & Television",7,[2,1,5,3,2,1],"Menyutradarai dan memproduksi film.","Direct and produce films."],
+["Pendidikan Guru SD","Elementary Education",8,[1,2,3,5,2,3],"Menjadi guru untuk anak usia sekolah dasar.","Become a teacher for young children."],
+["Pendidikan Matematika","Math Education",8,[1,5,1,4,1,3],"Mengajarkan matematika dengan cara menarik.","Teach math in engaging ways."],
+["Kriminologi","Criminology",4,[1,4,1,4,2,3],"Memahami sebab kejahatan dan pencegahannya.","Understand crime and its prevention."],
+["Aktuaria","Actuarial Science",1,[1,5,1,1,3,5],"Menghitung risiko keuangan dan asuransi.","Calculate financial and insurance risk."],
+["Astronomi","Astronomy",1,[2,5,1,1,1,2],"Meneliti bintang, planet, dan alam semesta.","Study stars, planets, and the universe."]];
+XM.forEach(m=>{M.push([m[0],m[1],m[4],m[5],"",m[3]]);D.FO.push(m[2])});
+/* campus logos: real logo via favicon service, falls back to initials (works offline) */
+const DOM={UI:"ui.ac.id",ITB:"itb.ac.id",UGM:"ugm.ac.id",ITS:"its.ac.id",Unair:"unair.ac.id",IPB:"ipb.ac.id",Undip:"undip.ac.id",Unpad:"unpad.ac.id",UB:"ub.ac.id",UNS:"uns.ac.id",Unhas:"unhas.ac.id",Unud:"unud.ac.id",Unesa:"unesa.ac.id",UPI:"upi.edu",UNY:"uny.ac.id",Unand:"unand.ac.id",Unsri:"unsri.ac.id",Binus:"binus.ac.id","Tel-U":"telkomuniversity.ac.id",Petra:"petra.ac.id",UII:"uii.ac.id",PENS:"pens.ac.id"};
+const xlogo=(u,s=40)=>`<span class="lg" style="width:${s}px;height:${s}px;background:var(--yellow)"><b>${esc(u.s.slice(0,4))}</b>${DOM[u.s]?`<img alt="" loading="lazy" src="https://www.google.com/s2/favicons?domain=${DOM[u.s]}&sz=128" onerror="this.remove()">`:""}</span>`;

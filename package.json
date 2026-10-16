@@ -1,0 +1,1 @@
+{ "name": "jurusanator-web", "version": "1.0.0", "private": true, "description": "Jurusanator - college major recommender (static web app)", "scripts": { "dev": "npx serve ." } }

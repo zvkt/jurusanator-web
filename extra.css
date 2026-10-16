@@ -1,0 +1,25 @@
+.bc{opacity:.14!important;box-shadow:3px 3px 0 var(--ink)!important;color:var(--ink)}
+.card,.card p,.card li,.card h1,.card h2,.card h3,.card b{color:var(--ink)}
+.card .muted,.card small,.card .muted *{color:#2f4727!important}
+.card{background-image:none}
+.stk{width:56px!important;height:56px!important;font-size:0!important;color:var(--ink);box-shadow:3px 3px 0 var(--ink)!important}
+.ic{display:inline-block;vertical-align:middle;flex:none}.bc .ic{width:40px;height:40px}
+.hi{display:inline-grid;place-items:center;width:clamp(48px,9vw,72px);height:clamp(48px,9vw,72px);margin:4px;border:3px solid var(--ink);border-radius:14px;background:var(--paper);color:var(--ink);box-shadow:3px 3px 0 var(--ink)}.hi .ic{width:60%;height:60%}
+.logo .ic{margin-right:4px;vertical-align:-3px}
+@media(max-width:480px){.stk{width:44px!important;height:44px!important}.bc{display:none}.hi{width:44px;height:44px}}
+.nav2{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin:-8px 0 14px}.nav2 .btn{flex:none;display:inline-flex;gap:6px;align-items:center;padding:8px 12px;font-size:13px}.nav2 .btn.on{background:var(--ink);color:var(--lime)}
+.off{font:700 11px var(--mono);background:var(--coral);color:var(--ink);border:2px solid var(--ink);padding:2px 8px;border-radius:99px;align-self:center}
+.lg{position:relative;display:inline-grid;place-items:center;flex:none;border:3px solid var(--ink);border-radius:12px;box-shadow:3px 3px 0 var(--ink);overflow:hidden;font:900 12px var(--hd);color:var(--ink)}.lg img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;padding:4px}
+.kgrid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}.kc{cursor:pointer;display:flex;flex-direction:column;gap:8px;padding:14px!important}
+.diff{display:inline-flex;gap:3px}.diff i{width:16px;height:10px;border:2px solid var(--ink);border-radius:3px;background:var(--paper)}.diff i.on{background:var(--coral)}
+.news a{display:block;color:var(--ink);text-decoration:none;border-bottom:2px dashed var(--ink);padding:10px 0;font-weight:600}.news a:last-child{border:0}.news small{display:block;font-weight:400}
+.xpbar{height:18px;border:3px solid var(--ink);border-radius:99px;background:var(--paper);overflow:hidden}.xpbar i{display:block;height:100%;background:var(--limehi)}
+.mis{display:flex;gap:10px;align-items:center;padding:10px 0;border-bottom:2px dashed var(--ink)}.mis:last-child{border:0}.mis .ck{width:28px;height:28px;border:3px solid var(--ink);border-radius:8px;display:grid;place-items:center;background:var(--paper);flex:none}.mis.done .ck{background:var(--limehi)}
+.bdg{display:flex;flex-wrap:wrap;gap:10px}.bdg>div{width:96px;text-align:center;font:700 11px var(--mono)}.bdg .b{width:56px;height:56px;margin:0 auto 4px;border:3px solid var(--ink);border-radius:14px;display:grid;place-items:center;background:var(--yellow);box-shadow:3px 3px 0 var(--ink)}.bdg .lock .b{background:#ccc;opacity:.7}
+.acc{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:2px dashed var(--ink)}.acc:last-child{border:0}
+.gboard{display:grid;width:min(92vw,470px);margin:12px auto;border:4px solid var(--ink);box-shadow:8px 8px 0 var(--ink);background:var(--paper);touch-action:none;user-select:none}
+.gc{aspect-ratio:1;display:grid;place-items:center;border:0 solid var(--ink)}.gc.n{border-top-width:3px}.gc.e{border-right-width:3px}.gc.s{border-bottom-width:3px}.gc.w{border-left-width:3px}
+.gp{width:70%;height:70%;border:3px solid var(--ink);border-radius:50%;background:var(--pink);display:grid;place-items:center;color:var(--ink)}
+.gg{width:86%;height:86%;display:grid;place-items:center;border:3px solid var(--ink);border-radius:8px;font:900 10px var(--hd);color:var(--ink)}
+.dpad{display:grid;grid-template-columns:repeat(3,64px);grid-template-rows:repeat(2,64px);gap:8px;justify-content:center;margin:8px auto}.dpad .btn{padding:0;display:grid;place-items:center;min-height:64px}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;font-size:15px;background:var(--paper)}
